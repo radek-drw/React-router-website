@@ -1,13 +1,13 @@
 import React from 'react';
-import '../styles/Article.css';
+import '../styles/ArticlePage.css';
 
 const Article = ({ title, author, text }) => {
   return (
-    <div className='article'>
+    <article>
       <h3>{title}</h3>
       <span>{author}</span>
       <p>{text}</p>
-    </div>
+    </article>
   );
 }
 

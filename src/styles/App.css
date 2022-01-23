@@ -19,11 +19,13 @@ main {
 }
 
 section {
-  padding: 0 7px 0 0;
+  padding-right: 7px;
 }
 
 footer {
   text-align: center;
   letter-spacing: 4px;
   text-transform: uppercase;
+  color: #fff;
+  background-color: #000;
 }
