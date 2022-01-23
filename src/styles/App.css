@@ -1,0 +1,29 @@
+.app {
+  width: 90%;
+  background-color: #ddd;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  flex-basis: 25vh;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 30% auto;
+  flex-grow: 1;
+  padding: 10px 0;
+}
+
+section {
+  padding: 0 7px 0 0;
+}
+
+footer {
+  text-align: center;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}

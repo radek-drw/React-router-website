@@ -1,0 +1,17 @@
+span {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 13px;
+}
+
+p {
+  font-size: 15px;
+}
+
+.article {
+  margin-top: 12px;
+}
+
+.article:first-of-type {
+  margin-top: 0;
+}
