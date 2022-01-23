@@ -25,7 +25,7 @@ class ContactsPage extends Component {
     return (
       <div className="contact">
         <form onSubmit={this.handleSubmit}>
-          <h3>Napisz do nas!</h3>
+          <h3>Napisz do nas!!</h3>
           <textarea
             placeholder='Wpisz wiadomość...'
             value={this.state.value}
