@@ -1,0 +1,9 @@
+.admin label {
+  display: grid;
+  grid-template-columns: 90px auto;
+  margin: 20px 0;
+}
+
+.admin input {
+  width: 200px;
+}

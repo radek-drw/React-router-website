@@ -1,0 +1,17 @@
+.products ul {
+  margin: 10px 0 0 25px;
+  list-style-type: square;
+}
+
+.products li {
+  margin-top: 5px;
+}
+
+.products a {
+  text-decoration: none;
+  color: black;
+}
+
+.products a:hover {
+  text-decoration: underline;
+}

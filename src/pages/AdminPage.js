@@ -1,6 +1,16 @@
+import React from 'react';
+import { Routes, Route, Navigate } from 'react-router-dom';
+
+const permission = false;
+
 const AdminPage = () => {
   return (
-    <h2>Strona administratora</h2>
+    <>
+      {permission ? <h2>Witaj w panelu admina</h2> :
+        <Routes>
+          <Route path="*" element={<Navigate to='/login' replace />} />
+        </Routes>}
+    </>
   );
 }
 
