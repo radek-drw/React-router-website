@@ -1,13 +1,13 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 
-import HomePage from '../pages/HomePage';
-import ProductPage from '../pages/ProductPage';
-import ProductListPage from '../pages/ProductListPage';
-import ContactsPage from '../pages/ContactsPage';
 import AdminPage from '../pages/AdminPage';
-import LoginPage from '../pages/LoginPage';
+import ContactsPage from '../pages/ContactsPage';
 import ErrorPage from '../pages/ErrorPage';
+import HomePage from '../pages/HomePage';
+import LoginPage from '../pages/LoginPage';
+import ProductListPage from '../pages/ProductListPage';
+import ProductPage from '../pages/ProductPage';
 
 const Section = () => {
   return (
