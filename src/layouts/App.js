@@ -1,33 +1,25 @@
-import React, { Component } from 'react';
-import '../styles/App.css';
+import React from 'react';
+
+import Footer from './Footer';
 import Header from './Header';
 import Navigation from './Navigation';
 import Section from './Section';
-import Footer from './Footer';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="app">
-        <header>
-          {<Header />}
-        </header>
+import '../styles/App.css';
 
-        <main>
-          <aside>
-            {<Navigation />}
-          </aside>
-          <section>
-            {<Section />}
-          </section>
-        </main>
+const App = () => {
+  return (
+    <div className="app">
+      <header>{<Header />}</header>
 
-        <footer>
-          {<Footer />}
-        </footer>
-      </div>
-    )
-  }
+      <main>
+        <aside>{<Navigation />}</aside>
+        <section>{<Section />}</section>
+      </main>
+
+      <footer>{<Footer />}</footer>
+    </div>
+  )
 }
 
 export default App;
