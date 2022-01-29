@@ -4,27 +4,14 @@ import '../styles/ContactPage.css';
 
 const ContactsPage = () => {
 
-  // state = {
-  //   value: ''
-  // }
-
   const [value, setValue] = useState('');
 
   const handleSubmit = e => {
     e.preventDefault();
-
-    // this.setState({
-    //   value: ''
-    // })
-    setValue('')
+    setValue('');
   }
 
-  const handleChange = e => {
-    // this.setState({
-    //   value: e.target.value
-    // })
-    setValue(e.target.value)
-  }
+  const handleChange = e => setValue(e.target.value);
 
   return (
     <div className="contact">
