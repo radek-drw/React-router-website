@@ -7,9 +7,9 @@ const ProductPage = (props) => {
   // console.log(props);
   return (
     <>
-      <h2>Strona produktu</h2>
+      <h2>Product description</h2>
       <Product />
-      <Link to='/products'>Powrót do listy produktów</Link>
+      <Link to='/products'>Back to products list</Link>
     </>
   );
 }

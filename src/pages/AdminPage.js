@@ -6,7 +6,7 @@ const permission = false;
 const AdminPage = () => {
   return (
     <>
-      {permission ? <h2>Witaj w panelu admina</h2> :
+      {permission ? <h2>Welcome in admin panel</h2> :
         <Routes>
           <Route path="*" element={<Navigate to='/login' replace />} />
         </Routes>}

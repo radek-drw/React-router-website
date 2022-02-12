@@ -5,9 +5,9 @@ import '../styles/Navigation.css';
 
 const list = [
   { name: 'start', path: '/' },
-  { name: 'produkty', path: '/products' },
-  { name: 'kontakty', path: '/contacts' },
-  { name: 'panel admina', path: '/admin' }
+  { name: 'products', path: '/products' },
+  { name: 'contacts', path: '/contacts' },
+  { name: 'admin panel', path: '/admin' }
 ]
 
 const Navigation = () => {

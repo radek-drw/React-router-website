@@ -4,20 +4,20 @@ import Article from '../components/Article';
 const articles = [
   {
     id: 1,
-    title: 'Czym jest teoria strun?',
-    author: 'Jan Nowak',
+    title: 'What is string theory?',
+    author: 'John Copper',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium pariatur optio veniam consequuntur aut tempora amet explicabo. Voluptatem doloribus obcaecati labore eos vitae porro quibusdam, nobis qui, quisquam blanditiis laudantium?'
   },
   {
     id: 2,
-    title: 'Czym jest paradoks Fermiego?',
-    author: 'Ania Kwaitkowska',
+    title: 'What is the Fermi Paradox?',
+    author: 'Anita Gribben',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium pariatur optio veniam consequuntur aut tempora amet explicabo. Voluptatem doloribus obcaecati labore eos vitae porro quibusdam, nobis qui, quisquam blanditiis laudantium?'
   },
   {
     id: 1,
-    title: 'Ciemna materia i ciemna energia?',
-    author: 'Jan Kowalski',
+    title: 'Dark Matter and Dark Energy',
+    author: 'Patrick Hegarty',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium pariatur optio veniam consequuntur aut tempora amet explicabo. Voluptatem doloribus obcaecati labore eos vitae porro quibusdam, nobis qui, quisquam blanditiis laudantium?'
   },
 ]

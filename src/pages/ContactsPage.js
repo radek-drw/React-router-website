@@ -16,13 +16,13 @@ const ContactsPage = () => {
   return (
     <div className="contact">
       <form onSubmit={handleSubmit}>
-        <h3>Napisz do nas!!</h3>
+        <h3>Send us message!</h3>
         <textarea
-          placeholder='Wpisz wiadomość...'
+          placeholder='Start typing...'
           value={value}
           onChange={handleChange}
         ></textarea>
-        <button>Wyślij</button>
+        <button>Send</button>
       </form>
     </div>
   );

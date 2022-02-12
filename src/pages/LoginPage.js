@@ -4,10 +4,10 @@ import '../styles/LoginPage.css';
 const LoginPage = () => {
   return (
     <div className='admin'>
-      <label htmlFor="login">Podaj login:
+      <label htmlFor="login">Login:
         <input type="text" id='login' />
       </label>
-      <label htmlFor="password">Podaj hasło:
+      <label htmlFor="password">Password:
         <input type="password" />
       </label>
     </div>
